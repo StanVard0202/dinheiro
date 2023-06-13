@@ -1,8 +1,6 @@
-import jogo from "./class.js"
+import jogo from "https://raw.githubusercontent.com/StanVard0202/dinheiro/main/class.js"
 
-const main = document.querySelector("#main_div")
-const requestURL = "./equipas.json"
-//const requestURL = "https://raw.githubusercontent.com/StanVard0202/Interturmas/master/db/jogos.json"
+const requestURL = "https://raw.githubusercontent.com/StanVard0202/dinheiro/main/equipas.json"
 
 
 const request = new Request(requestURL)
