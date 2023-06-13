@@ -25,7 +25,7 @@ table{
     background-color: var(--primary);
     left: 10px;
     right: 10px;
-    width: max-content;
+    width: calc(100vw - 20px);
 }
 
 td{
@@ -35,24 +35,6 @@ td{
     padding: 10px;
 }
 
-@media (max-width: 750px) {   
-    table{
-        width: calc(100vw - 20px);
-    }
-    img{
-        display: none;
-    }
-}
 
-@media (min-width: 1200px) {   
-    table{
-        width: calc(40vw - 20px);
-    }
-    img{
-        position: fixed;
-        left: 45vw;
-        top: 10vh;
-    }
-}
 
 
