@@ -33,9 +33,10 @@ class jogo{
         this.vitoria = vitoria
         this.empate = empate
         this.derrota = derrota
+        this.ponto = vitoria*3 + empate
     }
     html(){
-        html = `<tr><td>${this.equipa1}</td><td>${this.resultado}</td><td>${this.equipa2}</td><td>${this.hora}</td>`
+        html = `<tr><td>${this.nome}</td><td>${this.ano}</td><td>${this.ponto}</td><td>${this.vitoria}</td><td>${this.empate}</td><td>${this.derrota}</td>`
         return html
     }
 }
