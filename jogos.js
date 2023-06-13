@@ -21,7 +21,7 @@ function BIG(equipas){
     
     let html = ""
     for(var i = 0;i > arr.length; i++){
-        html += arr[i]
+        html += arr[i].html()
     }
     document.querySelector("#main").innerHTML = html
 }
